@@ -42,6 +42,12 @@ qsub SCENARIONAME.sh
 ```
 Or, consider submit all scenarios at once with the script in "Batch_work.txt". Make sure all scenario folders are in the same folder.
 
+
+## Content
+
+This repository contains three folders for non-spatial mathmetical model ("Non-spatial"), spatial simulation ("Spatial") and simulation on a case study of malleefowl ("Malleefowl") respectively.
+
+
 ## Contact author
 
 tangqiannus@gmail.com
