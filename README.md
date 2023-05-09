@@ -40,6 +40,7 @@ Run each scenario after change directory to the local folder:
 cd XXX/SCENARIONAME
 qsub SCENARIONAME.sh
 ```
+Or, consider submit all scenarios at once with the script in "Batch_work.txt". Make sure all scenario folders are in the same folder.
 
 ## Contact author
 
