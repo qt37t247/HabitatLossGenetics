@@ -1,4 +1,4 @@
-# Spatially explicit forward-time simulation with randomly generated landscapes
+## Spatially explicit forward-time simulation with randomly generated landscapes
 
 Please install python package rpy2 
 https://github.com/rpy2/rpy2
