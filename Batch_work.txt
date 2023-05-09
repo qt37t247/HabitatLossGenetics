@@ -1,0 +1,21 @@
+#####Looping job submission########
+for i in *
+do 
+ cd ./$i
+ qsub ${i}.sh
+ cd ../
+done
+
+
+#####Looping results collection####
+for i in *
+do 
+ cd ./$i
+ cp Raw_counts.csv ../${i}_Raw_counts.csv
+ cp Raw_pis.csv ../${i}_Raw_pis.csv
+ cp q025_counts.csv ../${i}_q025_counts.csv
+ cp q025_pis.csv ../${i}_q025_pis.csv
+ cp q025_fixed.csv ../${i}_q025_fixed.csv
+ cd ../
+done
+
