@@ -9,3 +9,8 @@ We simulated over seven transects from the original study (corresponding to the 
 For each transect, we produced two habitat loss scnearios accounting for a gradual habitat loss from 1800 to 1900 (SCENARIONAME start with "d") and an instant habitat loss at 1850 (SCENARIONAME start with "t"), respectively. 
 
 For each transect, we also applied two sampling schemes, one to sample all available simulated individuals (SCENARIONAME start with transect number), the other to sample the same number of individuals at the same location as the original study did (SCENARIONAME end with "s"). 
+
+Vegetation data is available at National Vegetation Information System (NVIS) Version 6.0:
+http://www.environment.gov.au/fed/catalog/main/home.page
+
+We downloaded the shapefiles and rasterized to 1 km x 1 km with QGIS. Exported raster is cropped into seven transects with the R script ("transects.R") 
