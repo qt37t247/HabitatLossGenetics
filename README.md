@@ -21,7 +21,7 @@ Detailed instruction, see: https://anaconda.org/bioconda/vcftools
 
 ## Workflow
 
-Create a folder for each scenario
+Create a folder for each scenario and name it "SCENARIONAME" (to be variable according to what you want to name each scenario)
 
 In each folder, you should have:
 
