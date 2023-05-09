@@ -37,7 +37,7 @@ Two tif files of rasters (for real-world simulations ONLY)
 
 Run each scenario after change directory to the local folder:
 ```bash
-cd XXX/SCENARIONAME
+cd /SCENARIONAME
 qsub SCENARIONAME.sh
 ```
 Or, consider submit all scenarios at once with the script in "Batch_work.txt". Make sure all scenario folders are in the same folder.
