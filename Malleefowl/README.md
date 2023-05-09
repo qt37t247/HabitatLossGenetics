@@ -1,4 +1,4 @@
-## Simulation on a case study of malleefowl
+## Simulations on a case study of malleefowl
 
 The original article for the case study is:
 
