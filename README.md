@@ -45,7 +45,7 @@ Or, consider submit all scenarios at once with the script in "Batch_work.txt". M
 
 ## Content
 
-This repository contains three folders for non-spatial mathmetical model ("Non-spatial"), spatial simulation ("Spatial") and simulation on a case study of malleefowl ("Malleefowl") respectively.
+This repository contains two folders for spatial simulation ("Spatial") and simulation on a case study of malleefowl ("Malleefowl") respectively.
 
 
 ## Contact author
