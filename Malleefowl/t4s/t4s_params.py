@@ -315,7 +315,7 @@ params = {
                 #sample size at each point, for point & transect sampling
                 'n':                    1,
                 #coords of collection points, for point sampling
-                'points':               ((1,13),(0,13),(16,18),(11,12),(8,3),(11,3),(10,4),(8,5),(9,5)),
+                'points':               ((1,13),(16,18),(11,12),(8,3),(11,3),(10,4),(8,5),(9,5)),
                 #coords of transect endpoints, for transect sampling
                 'transect_endpoints':   None,
                 #num points along transect, for transect sampling
