@@ -20,7 +20,7 @@ Detailed instruction for installing vcftools, see: https://anaconda.org/bioconda
 
 Detailed instruction for installing PLINK, see: https://anaconda.org/bioconda/plink
 
-Detailed instruction for installing PLINK, see: https://anaconda.org/conda-forge/r-base
+Detailed instruction for installing R, see: https://anaconda.org/conda-forge/r-base
 
 ## Workflow
 
