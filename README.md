@@ -14,10 +14,13 @@ Create a conda environment, named "geog" to install Geonomics.
 
 Detailed instruction, see: https://geonomics.readthedocs.io/en/latest/install.html
 
-Create a conda environment, named "R" to install vcftools
+Create a conda environment, named "R" to install vcftools, PLINK(v1.9), R and R package "vegan"
 
-Detailed instruction, see: https://anaconda.org/bioconda/vcftools
+Detailed instruction for installing vcftools, see: https://anaconda.org/bioconda/vcftools
 
+Detailed instruction for installing PLINK, see: https://anaconda.org/bioconda/plink
+
+Detailed instruction for installing PLINK, see: https://anaconda.org/conda-forge/r-base
 
 ## Workflow
 
