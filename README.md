@@ -29,7 +29,7 @@ Detailed instruction for installing R, see: https://anaconda.org/conda-forge/r-b
 
 ## Content
 
-This repository contains two folders for spatial simulation ("Spatial") and simulation on a case study of malleefowl ("Malleefowl") respectively.
+This repository contains two folders for simulation on virtual landscape ("Spatial") and simulation on a case study of malleefowl ("Malleefowl") respectively.
 
 
 ## Contact author
