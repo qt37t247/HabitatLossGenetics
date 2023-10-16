@@ -42,11 +42,11 @@ A shell file to perform a series of command in HPC ("SCENARIONAME.sh")
 
 A python script to run Geonomics ("SCENARIONAME.py")
 
-A python script of parameter file ("SCENARIONAME_params.py" or "SCENARIONAME_params.template.py")
+A python script of parameter file ("SCENARIONAME_params.template.py")
+
+A R script to calculate the spatial genetic structuring ("Mantel.R")
 
 A R script to calculate the summary statistics ("data_collect.R")
-
-Two tif files of rasters (for real-world simulations ONLY)
 
 Run each scenario after change directory to the local folder:
 ```bash
