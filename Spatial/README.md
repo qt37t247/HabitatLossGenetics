@@ -8,15 +8,28 @@ Geonomics: https://geonomics.readthedocs.io/en/latest/
 
 This repository includes shell files, python scripts and R scripts required to perform the simulation in high-performance computation (HPC). 
 
+
 ## Required programs and settings
 
-Create a conda environment, named "geog" to install Geonomics. 
+Create a conda environment, named "geog" to install Geonomics and rpy2. 
 
-Detailed instruction, see: https://geonomics.readthedocs.io/en/latest/install.html
+Detailed instruction, see: 
 
-Create a conda environment, named "R" to install vcftools
+https://geonomics.readthedocs.io/en/latest/install.html
 
-Detailed instruction, see: https://anaconda.org/bioconda/vcftools
+https://github.com/rpy2/rpy2
+
+Create a conda environment, named "R" to install vcftools, plink, R and R package "vegan"
+
+Detailed instruction, see: 
+
+https://anaconda.org/bioconda/vcftools
+
+https://anaconda.org/bioconda/plink
+
+https://anaconda.org/conda-forge/r-base
+
+https://anaconda.org/conda-forge/r-vegan
 
 
 ## Workflow
@@ -40,6 +53,7 @@ Run each scenario after change directory to the local folder:
 cd XXX/SCENARIONAME
 qsub SCENARIONAME.sh
 ```
+
 
 ## Contact author
 
