@@ -14,3 +14,28 @@ Vegetation data is available at National Vegetation Information System (NVIS) Ve
 [http://www.environment.gov.au/fed/catalog/main/home.page](http://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7Bab942d6d-9efd-4cf2-bec7-4c1521b83803%7D)
 
 We downloaded the shapefiles and rasterized to 1 km x 1 km with QGIS. Exported raster is cropped into seven transects with the R script ("transects.R") 
+
+
+## Workflow
+
+Create a folder for each scenario
+
+In each folder, you should have:
+
+Two tif files of rasters of habitat before and after habitat destruction respectively ("SCENARIONAMEri.tif" and "SCENARIONAMEr.tif")
+
+A shell file to perform a series of command in HPC ("SCENARIONAME.sh")
+
+A python script to run Geonomics ("SCENARIONAME.py")
+
+A python script of parameter file ("SCENARIONAME_params.py")
+
+A R script to calculate the summary statistics ("data_collect.R")
+
+Run each scenario after change directory to the local folder:
+```bash
+cd XXX/SCENARIONAME
+qsub SCENARIONAME.sh
+```
+
+
