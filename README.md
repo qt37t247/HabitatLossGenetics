@@ -6,6 +6,8 @@ In this project, we used Geonomics, a spatial explicit forward-time approach, to
 
 Geonomics: https://geonomics.readthedocs.io/en/latest/
 
+The simulations were done under Genomics v.1.3.8. 
+
 This repository includes shell files, python scripts and R scripts required to perform the simulation in high-performance computation (HPC). 
 
 ## Required programs and settings
