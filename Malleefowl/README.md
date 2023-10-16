@@ -22,7 +22,7 @@ Create a folder for each scenario
 
 In each folder, you should have:
 
-Two tif files of rasters of habitat before and after habitat destruction respectively ("SCENARIONAMEri.tif" and "SCENARIONAMEr.tif")
+Two tif files of rasters of habitat before and after habitat destruction respectively ("..ri.tif" and "..r.tif")
 
 A shell file to perform a series of command in HPC ("SCENARIONAME.sh")
 
