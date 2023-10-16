@@ -1,12 +1,6 @@
 ## Simulations on virtual landscape of different amount and configuration of habitat loss
 
-Manuscript title: Rate and extent of genetic diversity loss under non-equilibrium scenarios of habitat loss
-
-In this project, we used Geonomics, a spatial explicit forward-time approach, to simulate across habitat loss scenarios with a variety of habitat amount and configuration to address the SLOSS debate in terms of genetic diversity. 
-
-Geonomics: https://geonomics.readthedocs.io/en/latest/
-
-This repository includes shell files, python scripts and R scripts required to perform the simulation in high-performance computation (HPC). 
+We created 57 scenarios (19 habitat loss scenarios for three species of different mobility). See detailed configuration in the excel sheet ("Table_S1.xlsx")
 
 
 ## Required programs and settings
